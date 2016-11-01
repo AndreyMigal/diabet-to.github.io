@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<section class='max-width-4 mx-auto my4'>
+  <div class="px2">
+
+    <h1 class="px4 center muted mt0 mb4">Информация для больных сахарным диабетом 2 типа, которые хотят улучшить свое самочувствие и прожить дольше.</h1>
+
+    <div class="md-whiteframe-2dp bg-white">
+
+      <div class="px2 py3">
+        <p class="h3 ml3">Николай Мазур врач-эндокринолог (Россия) сертифицированный консультант по диабету (CDE, Canada)</p>
+        <p class="h3 ml3">Профессиональные консультации больных сахарным диабетом.</p>
+        <p class="h3 ml3">20 лет опыта работы с больными сахарным диабетом и предиабетом</p>
+      </div>
+
+      <div class="bg-blue white">
+        <div class="">
+          <div class="max-width-2 mx-auto center py3">
+            <h4 class="h2">Не ищите информацию на сайтах, получите грамотную консультацию у профессионала.</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="p4">
+        <h3 class="h3">Вы можете получить достоверную, исчерпывающую информацию по любому вопросу связанному с сахарным диабетом, включая:</h3>
+        <div class="ml2">
+          <p>Патофизиология сахарного диабета</p>
+          <p>Типы сахарного диабета</p>
+          <p>Лабораторная диагностика сахарного диабета</p>
+          <p>Симптомы сахарного диабета</p>
+          <p>Mониторинг сахара в крови</p>
+          <p>Здоровое пи Здоровое питание (подбор индивидуальной диеты, чтение этикеток на продуктах)</p>
+          <p>Физическая активность</p>
+          <p>Снижение веса тела</p>
+          <p>Медикаментозное лечение</p>
+          <p>Осложнения сахарного диабета</p>
+          <p>Холестерин, кровяное давление и сахарный диабет</p>
+          <p>Улучшение качества жизни и увеличение её продолжительности</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class='max-width-4 mx-auto my4'>
+  <header>
+    <h1 class="h1 center muted mb4">Последние Статьи</h1>
+  </header>
+
+  <div class="px2">
+
+    {% for post in site.posts limit:3 %}
+    <div class="md-whiteframe-2dp bg-white my2">
+      <div class="">
+        <div class="sm-flex">
+          <a href="{{ post.url }}">
+            <div class="bg-center bg-cover bg-silver sixteen-nine" style="min-width: 300px; height: 100%; background-image: url({{ post.image }})"></div>
+          </a>
+          <div class="flex-auto pl3 p2">
+            <a href="{{ post.url }}"><h2 class="m0 black muted">{{ post.title }}</h2></a>
+            <p class="mt0"><small>{{ post.date | date: '%B %d, %Y' }}</small></p>
+            <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+    <div class="center mt4">
+      <a href="/мои-статьи" class="black muted">подивитись все</a>
+    </div>
+
+  </div>
+</section>

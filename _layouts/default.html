@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Профессиональные консультации больных сахарным диабетом">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <title>Diabet | Диабет</title>
+  </head>
+  <body>
+
+    <header class="bg-blue">
+      <div class="max-width-4 mx-auto">
+        <div class="flex justify-center items-center px2">
+          <div class='center py2 xs-pr4 white'>
+            <a href="/">
+              <img src="/assets/logo-white.png" class="fit" />
+            </a>
+          </div>
+          <div class="flex-auto"></div>
+          <p class="white muted h3 right-align xs-small">
+            Николай Мазур
+            <br class=''>
+            (647) 766 3143
+            <br class=''>
+            n.mazur@hotmail.com
+          </p>
+        </div>
+      </div>
+      <div class="bg-blue md-whiteframe-4dp">
+        <div class="bg-darken-2">
+          <div class="max-width-4 mx-auto py2">
+            <nav class="flex-auto flex justify-between px2 xs-flex-column xs-center">
+              {% for node in site.headerLinks %}
+              {% if page.url == node.url %}
+              <a href="{{node.url}}" class="xs-py1 xs-my1 relative white bold text-decoration-none caps active">{{node.title}}</a>
+              {% else %}
+              <a href="{{node.url}}" class="xs-py1 xs-my1 relative white bold text-decoration-none caps">{{node.title}}</a>
+              {% endif %}
+              {% endfor %}
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div>
+      {{ content }}
+    </div>
+
+    <footer class="bg-blue white">
+      <div class="">
+        <div class="max-width-4 mx-auto p2">
+          <div class="flex justify-center items-center">
+            <a href="/" class="text-decoration-none white py2">&copy; {{ site.time | date: '%Y' }} Diabet</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
