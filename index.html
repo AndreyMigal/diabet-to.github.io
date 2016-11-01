@@ -59,7 +59,9 @@ layout: default
             <div class="bg-center bg-cover bg-silver sixteen-nine" style="min-width: 300px; height: 100%; background-image: url({{ post.image }})"></div>
           </a>
           <div class="flex-auto pl3 p2">
-            <a href="{{ post.url }}"><h2 class="m0 black muted">{{ post.title }}</h2></a>
+            <a href="{{ post.url }}" class="text-decoration-none">
+              <h2 class="m0 black muted">{{ post.title }}</h2>
+            </a>
             <p class="mt0"><small>{{ post.date | date: '%B %d, %Y' }}</small></p>
             <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
           </div>
@@ -69,7 +71,7 @@ layout: default
     {% endfor %}
 
     <div class="center mt4">
-      <a href="/мои-статьи" class="black muted">подивитись все</a>
+      <a href="/мои-статьи" class="black muted">посмотреть все статьи</a>
     </div>
 
   </div>
