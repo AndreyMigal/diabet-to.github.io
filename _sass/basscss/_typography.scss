@@ -24,6 +24,8 @@ $bold-font-weight: bold !default;
 
 .regular { font-weight: normal }
 
+.lead { font-size: 18px; line-height: 1.25 }
+
 .thin { font-weight: 100 }
 
 .italic  { font-style: italic }
@@ -64,4 +66,8 @@ $bold-font-weight: bold !default;
 .list-reset {
   list-style: none;
   padding-left: 0;
+}
+
+.ts-1 {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }

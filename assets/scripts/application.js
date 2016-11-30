@@ -1,0 +1,3 @@
+$(function () {
+  $('.fluidbox-trigger').fluidbox();
+})

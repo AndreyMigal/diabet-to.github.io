@@ -8,20 +8,15 @@ headerLinks:
   - title: Главная
     url: /
   - title: Обо Мне
-    # url: /%D0%BE%D0%B1%D0%BE-%D0%BC%D0%BD%D0%B5/
     url: /обо-мне
   - title: Услуги
-    # url: /%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/
     url: /услуги
   - title: Мои Статьи
-    # url: /%D0%BC%D0%BE%D0%B8-%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8/
     url: /мои-статьи
-  - title: Знаете Ли Вы Что
-    # url: /%D0%B7%D0%BD%D0%B0%D0%B5%D1%82%D0%B5-%D0%BB%D0%B8-%D0%B2%D1%8B-%D1%87%D1%82%D0%BE/
-    url: /знаете-ли-вы-что
   - title: Полезная Информация
-    # url: /%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F/
     url: /полезная-информация
+  - title: Знаете Ли Вы Что
+    url: /знаете-ли-вы-что
 
 excerpt_separator: <!--more-->
 
