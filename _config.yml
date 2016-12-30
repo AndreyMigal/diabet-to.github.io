@@ -19,9 +19,9 @@ header_links:
     url: /знаете-ли-вы-что
 
 background_images:
+  landing_banner: //images.unsplash.com/photo-1430554420274-cdda916a34e4?dpr=1&auto=format&fit=crop&w=1900&h=500
   water: //images.unsplash.com/reserve/AXx3QORhRDKAMrbb8pX4_photo%202.JPG?dpr=1&auto=format&fit=crop&w=1900&h=500
   winter_mountain: //images.unsplash.com/photo-1418985991508-e47386d96a71?dpr=1&auto=format&fit=crop&w=1900&h=500
-  asia_mountain: //images.unsplash.com/photo-1430554420274-cdda916a34e4?dpr=1&auto=format&fit=crop&w=1900&h=500
   summer_mountain: //images.unsplash.com/photo-1471978445661-ad6ec1f5ba50?dpr=1&auto=format&fit=crop&w=1900&h=500
 
 excerpt_separator: <!--more-->
