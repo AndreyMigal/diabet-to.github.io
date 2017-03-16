@@ -1,12 +1,12 @@
 $(function () {
-  $('.fluidbox-trigger').fluidbox();
 
   /**
-   * Fluidbox gallery functionality
+   * Fluidbox + gallery functionality
    * Scrolls through all active fluidbox images on page
    *
    * Responds to keyboard controls: esc (27), left_arrow (37), right_arrow (39)
    */
+  const $images = $('.fluidbox-trigger').fluidbox()
   const fluidboxDelay = 550
   let fluidboxTimeout
 
