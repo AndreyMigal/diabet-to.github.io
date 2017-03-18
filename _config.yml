@@ -27,9 +27,7 @@ background_images:
 excerpt_separator: <!--more-->
 
 # google analytics
-analytics:
-  account:
-  domain:
+ga_analytics: UA-93956944-1
 
 exclude: ['README.md', 'LICENSE', 'bower.json', 'Gemfile.lock', 'Gemfile']
 
