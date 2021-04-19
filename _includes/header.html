@@ -5,7 +5,7 @@
     <div class="flex justify-center items-center px2">
       <div class='center py2 xs-pr4 white'>
         <a href="/">
-          <img src="/assets/logo-white.png" class="fit" />
+          <img src="assets/logo-white.png" class="fit" />
         </a>
       </div>
       <div class="flex-auto"></div>
@@ -14,7 +14,8 @@
         <br>
         <span class="muted h4">(647) 766 3143</span>
         <br>
-        <span class="muted h4"><a href="mailto:n.mazur@hotmail.com" class="white text-decoration-none">n.mazur@hotmail.com</a></span>
+        <span class="muted h4"><a href="mailto:n.mazur@hotmail.com"
+            class="white text-decoration-none">n.mazur@hotmail.com</a></span>
       </p>
     </div>
   </div>
@@ -24,9 +25,11 @@
         <nav class="flex-auto flex justify-between px2 xs-flex-column xs-center">
           {% for node in site.header_links %}
           {% if page.url == node.url %}
-          <a href="{{node.url}}" class="nav-item xs-py1 xs-my1 relative white bold text-decoration-none caps active">{{node.title}}</a>
+          <a href="{{node.url}}"
+            class="nav-item xs-py1 xs-my1 relative white bold text-decoration-none caps active">{{node.title}}</a>
           {% else %}
-          <a href="{{node.url}}" class="nav-item xs-py1 xs-my1 relative white bold text-decoration-none caps">{{node.title}}</a>
+          <a href="{{node.url}}"
+            class="nav-item xs-py1 xs-my1 relative white bold text-decoration-none caps">{{node.title}}</a>
           {% endif %}
           {% endfor %}
         </nav>

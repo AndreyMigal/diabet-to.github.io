@@ -8,15 +8,17 @@ header_links:
   - title: Главная
     url: /
   - title: Обо Мне
-    url: /обо-мне
+    url: обо-мне
   - title: Услуги
-    url: /услуги
+    url: услуги
   - title: Мои Статьи
-    url: /мои-статьи
+    url: мои-статьи
   - title: Полезная Информация
-    url: /полезная-информация
+    url: полезная-информация
   - title: Знаете Ли Вы Что
-    url: /знаете-ли-вы-что
+    url: знаете-ли-вы-что
+  - title: Контакты
+    url: контакты
 
 background_images:
   landing_banner: //images.unsplash.com/photo-1430554420274-cdda916a34e4?dpr=1&auto=format&fit=crop&w=1900&h=500
